@@ -5,6 +5,10 @@ margin:0px;
 padding:0px;
 font-size: 14px;
 }
+a:link,a:visited,a:active{
+    color: #000000;
+    text-decoration: none;
+}
 img.icon{
     height: 12px;
 }
@@ -57,6 +61,26 @@ img.icon{
     .mainlists{
         margin-bottom: 12px;
     }
+.downloadpdf{
+    font-weight: 600; 
+    color: #888888;
+    width:144px;
+    height: 36px;
+    border-width: 1px; border-color: #888888;border-style: solid;
+/*    background-color: grey;*/
+    margin-top: 240px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    float:none;
+    clear: both;
+    position: relative;
+    top:60px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: auto;
+    line-height: 36px;
+}
 @media(min-width:992px){
     
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5,.col-lg-6, 
@@ -152,11 +176,6 @@ img.icon{
 
 @media(min-width:768px) and (max-width:991.99px){
     
-    .allcontent{
-        margin-left: 30px;
-        margin-right: 30px;
-        
-    }
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,.col-md-6, 
 	.col-md-7, .col-md-8,.col-md-9, .col-md-10, .col-md-11, .col-md-12{float:left;}
     
@@ -172,6 +191,76 @@ img.icon{
 	.col-md-10 {width:83.33%;}
 	.col-md-11{width:91.66%;}
 	.col-md-12 {width:100%;}
+    .col2{padding-right: 48px;}
+    
+
+     .allcontent{
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        
+/*        margin: auto 120px auto 120px;*/
+    }
+    body{
+        padding:20px 20px 100px 20px;
+    }
+    .titles{
+       padding-left:12px; 
+       float: left;
+    }
+    h1{
+        font-size: 2em;
+        font-weight: 700;
+    }
+    h2{
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+    .profilepic-lg{
+        width:80px;
+        height:80px;
+        background-image: url(profile_pic.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        float: left;
+    }
+    .contactinfo{
+        float:right;
+    /*    background: aqua;*/
+        height: 126px;
+    }
+    .contactinfolist{
+        margin-top:  24px;
+        line-height: 2em;
+
+    }
+    .contactlistitem{
+        font-size: 12px;
+    }
+
+    .personalprofile{
+        clear:left;
+        margin: 12px 0px 12px 0px;
+        padding-right: 12px;
+        font-size: 1.2em;
+    }
+
+
+
+    .skills{
+    /*
+        background-color: #eeeeee;
+        padding: 12px;
+    */
+    }
+
+    .skilllist1{
+        font-weight: 600;
+        line-height: 1.6em;
+    }
+
+
     
 }
 
@@ -235,8 +324,8 @@ img.icon{
         font-size: 1.1em;
 /*        text-align: center;*/
     }
-        h3{
-            font-weight: 400;
+    h3{
+            font-weight: 600;
             font-size: calc(1em*10/12);
             margin-top: 3em;
             margin-bottom: calc(1em*3/6);
@@ -244,6 +333,10 @@ img.icon{
     .skilllist1{
         font-weight: 600;
         line-height: 1.6em;
+    }
+    .contactinfolist{
+        line-height: 1.8em;
+
     }
     }
 }
