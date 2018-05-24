@@ -3,5 +3,46 @@
     box-sizing: border-box;
     margin:0px;
     padding:0px;
-    font-size: 16px;
+    font-size: 12px;
+}
+body{
+    margin:20px;
+}
+img.icon{
+    height: 12px;
+}
+.profilepic{
+    width:80px;
+    height:80px;
+    background-image: url(profile_pic.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+span.icon{
+    margin-right: 4px;
+}
+hr{
+    margin: 0px 0px 0px 0px;
+    border: none; border-top: 1px solid #cccccc;
+    
+}
+h3{
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+}
+ul.body{
+    list-style: disc outside;
+    padding-left:0px;
+}
+.listheading{
+    font-weight: 600;
+}
+.listheadingyear{
+    font-weight:400;
+}
+.skills{
+    background-color: #eeeeee;
+    padding: 12px;
 }
